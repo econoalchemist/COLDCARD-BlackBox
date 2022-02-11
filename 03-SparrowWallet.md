@@ -2,9 +2,10 @@
 Sparrow Wallet is a Bitcoin wallet designed to be connected with your own node and ran from your desktop or laptop computer. This is a user-friendly wallet with an intuitive interface and many advanced features for a range of capabilities. To learn more about Sparrow Wallet and for installation instructions, visit the [Sparrow Wallet website](https://www.sparrowwallet.com/).
 
 In this guide you will see how to:
-- Connect your Sparrow Wallet using your own BitcoinCore node. 
-- Setup a hot wallet in Sparrow for your Whirlpool mixing. 
-- Connect to your COLDCARD to automatically deposit from Whirlpool. 
+- Get started, connect your Sparrow Wallet using your own Bitcoin Core node. 
+- Generate addresses, setup a hot wallet in Sparrow for receiving & Whirlpool mixing. 
+- How to use Whirlpool & connect to your COLDCARD to automatically deposit from Whirlpool.
+- How to spend from air-gapped COLDCARD. 
 
 ## Bitcoin Core
 If you don't have your own Bitcoin Core node, you can use reputable public Electrum servers as demonstrated in the [UltraQuick guide](https://github.com/econoalchemist/ColdCard-UltraQuick). However, there are privacy tradeoffs that come with using the convenience of a public Electrum server. Luckily there are a number of resources available to help you spin up your own Bitcoin node, to learn more check out:
