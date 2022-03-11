@@ -2,7 +2,7 @@
 A guide for Bitcoin home miners on handling their rewards in a private and air-gapped manner. Mining Bitcoin goes hand in hand with self-custody, the mining pool pays the miner and the miner has to provide a Bitcoin address in order to receive the payouts. This guide aims to demonstrate a few tools that can be used to handle the mining rewards in a way that helps maintain the anonymity gained from mining and sees that through to cold storage. 
 
 <p align="center">
-  <img width="750" src="assets/xxx.jpg">
+  <img width="750" src="assets/BB13.jpg">
 </p>
 
 This guide covers:
