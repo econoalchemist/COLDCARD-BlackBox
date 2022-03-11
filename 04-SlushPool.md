@@ -79,7 +79,7 @@ Copy/paste the first nearest SlushPool server into your ASIC configuration page 
 Copy/paste the first nearest SlushPool server into your ASIC configuration file by navigating to the `Pool 1` drop down menu and selecting `-- Custom --` and then pasting the SlushPool URL there. Then click on `Save & Apply` before making any other changes. 
 
 <p align="center">
-  <img width="798" src="Assets/slush17.png">
+  <img width="798" src="assets/slush17.png">
   </p>
 
 ![](assets/slush18.png)
@@ -120,7 +120,7 @@ The ASIC needs to be rebooted in order for these changes to take effect. Click o
 The ASIC needs to be rebooted in order for these changes to take effect. Navigate to `System` > `Reboot` then click on the <kbd>Perform reboot</kbd> button. You will be logged out of the interface and the ASIC will reboot. You will hear the fans spool up and down a couple times. Then you can log back into the ASIC interface. 
 
 <p align="center">
-  <img width="733" src="Assets/slush20.png">
+  <img width="733" src="assets/slush20.png">
   </p>
   
 ![](assets/slush18.png)
