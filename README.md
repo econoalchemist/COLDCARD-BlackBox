@@ -1,5 +1,5 @@
 # COLDCARD & BlackBox
-A guide for Bitcoin home miners on handling their rewards in a private and air-gapped manner. Mining Bitcoin goes hand in hand with self-custody, the mining pool pays the miner and the miner has to provide a Bitcoin address in order to receive the payouts. This guide aims to demonstrate a few tools that can be used to handle the mining rewards in a way that helps maintain the anonymity gained from mining and sees that through to cold storage. 
+A guide for Bitcoin home miners on setting up their BlackBox and handling their mining rewards in a privacy-preserving manner before going to cold storage. Mining Bitcoin goes hand in hand with self-custody, the mining pool pays the miner and the miner provides a Bitcoin address in order to receive the payouts. This guide aims to demonstrate setting up a new BlackBox install and a few tools that can be used to handle the mining rewards in a way that helps maintain the anonymity gained from mining and sees that through to cold storage. 
 
 <p align="center">
   <img width="750" src="assets/BB13.jpg">
