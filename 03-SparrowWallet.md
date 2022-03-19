@@ -54,10 +54,12 @@ Unfortunately, Bitcoin Core stores your public keys and balances unencrypted on 
 
 Now that Sparrow Wallet is connected with Bitcoin Core, this is a good time to get the hot wallet setup.
 
-## Sparrow Hot Wallet
-xxx
-xxx
-xxx
+## Whirlpool Hot Wallet
+This section will show you how to set up the hot wallet that you can use for the Whirlpool CoinJoin implementation in Sparrow Wallet. Using Whirlpool will help prevent the mining pool from seeing what you do with your mining rewards (or anyone watching the movement of mining rewards on chain) and this will also help prevent anyone you spend your bitcoin with from knowing that you earned that bitcoin through mining. 
+
+The important idea to understand here is that you are making a hot wallet in Sparrow that is totally separate from your COLDCARD wallet. You want to keep your COLDCARD wallet totally air-gapped and never have that signing key on a device that is connected to the internet. When you use Whirlpool however, Sparrow Wallet needs to sign CoinJoin transactions as they are created. The benefit of leaving your UTXOs in Sparrow Wallet to mix is that your UTXOs will continually be registered as available inputs when new liquidity enters the mixing pool. Your UTXOs will be able to continue re-mixing again and again for free, so you get more and more anonymity with each mix, this is the incentive to leave your UTXOs mixing. The downside is that you have a Bitcoin wallet connected to the internet with private keys on it, thus the term "hot wallet". 
+
+The hot wallet will be used to deposit the mining rewards to, then they will be mixed, and once the UTXOs are in the post-mix hot wallet, you can choose to set a minimum number of mixes you want to achieve and then have them automatically deposited to your COLDCARD. This is where things get interesting, when you have a post-mix UTXO deposited to the COLDCARD straight from a CoinJoin, on-chain it is impossible to tell that this has been moved to a different wallet. It looks like it is just an unspent CoinJoin output. And so long as it remains unspent, then while other UTXOs from that last CoinJoin transaction continue to mix, your anonymity continues to grow. 
 
 
 
@@ -77,9 +79,7 @@ xxx
 
 
 
-
-
-
+## Watch-Only & Signing with the COLDCARD
 In order to keep your COLDCARD air-gapped, the Partially Signed Bitcoin Transaction (PSBT) can be utilized to spend bitcoin from the COLDCARD without ever connecting it to the internet. Basically, the public information from the COLDCARD called an XPUB will be used to import the necessary information into Sparrow Wallet on our desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the COLDCARD's balance, and initiate PSBT's. All without exposing any of the private information from the COLDCARD, like the signing key. 
 
 You will use the microSD card to transfer information between the desktop and the COLDCARD. Ensure the microSD card is inserted to the COLDCARD. 
