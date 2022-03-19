@@ -88,3 +88,42 @@ Then the miner was placed back in the box, the pressure barrier was trimmed down
  <img width="450" src="assets/BB47.jpg">
  <img width="450" src="assets/BB48.jpg">
 </p>  
+
+Now that the sound treatment is satisfactory, the BlockBox is ready to be installed in its permanant locaton. But first there needs to be a way to connect it to power and Ethernet.
+
+## Electrical
+Each BlackBox ships with a coupling for the customer to install themselves. There is no way to know which side the customer is going to need the cables to pass through so it is better if the customer just drilled the hole in the side of teh BlackBox with a hole saw where they need it. 
+
+There are many different ways this can be configured. In this demonstration, an Antminer S19j Pro 110Th miner was used for the final install. These miners require two outlets. The outlets were installed inside the BlackBox in this case. Then the power was ran to the box using water-tight conduit. You may not want to install your outlets inside the BlackBox and may prefer to have them installed on a wall near by so that the wiring doesn't have to be un-done in order to move the BlackBox. 
+
+In this demonstration, two additional holes for 1/4" bolts were drilled into a water-tight conduit box. These holes linned up with a in-door conduit box which will get mounted on the inside of the BlackBox, directy opposite from the water-tight conduit box. Then a gasket was made using some cork material to go behind the water-tight conduit box, on the outside of the BlackBox. 
+
+<p align="center">
+ <img width-"450" src="assets/BB52.jpg">
+ <img width="450" src="assets/BB53.jpg">
+</p>  
+
+Using a hole saw, a 3/4" hole was drilled into the side of the BlackBox, then the 1/4" hole locations were marked on either side of it and then drilled out as well. Then using the 1/4" bolts to hold the water-tight conduit box in place, the in-door conduit box was linned up on the inside of the BlackBox and then the nuts were tightened down to secure both junction boxes, pinning the wall of the BlackBox inbetween.  
+
+<p align="center">
+ <img src="assets/BB57.jpg">
+ <img src="assets/BB58.jpg">
+</p>  
+
+Then the outlet boxes were mounted to the wing wall inside the BlackBox on the intake side. These were mounted using 1/4" bolts again that passed through the entire wall of the wing. 
+
+<p align="center">
+ <img src="assets/BB54.jpg">
+ <img src="assets/BB55.jpg">
+</p> 
+
+Now the site for the BlackBox could be prepared. In this demonstration, a pallet was used to keep the BlackBox up off the ground. The dirt/woordchip was shuffled around to make sure the area was level first. 
+
+<p align="center">
+ <img src="assets/BB59.jpg">
+ <img src="assets/BB56.jpg">
+</p> 
+
+Inside the garage, there was a 100 amp sub panel. A 20 amp dedicated breaker was installed. Then using 12GA MC, A line was ran on the inside of the garage, along the wall from the sub-panel to the opposite side of the wall where the BlackBox was going to be installed. Then a hole was drilled through the wall. An in-door junction box was mounted on the inside wall where the cable would pass through. On the exterior, another water-tight conduit junction box was mounted on the outside wall. Then, using water-tight conduit, 12GA wire was ran through the conduit and then it was connected to the water-tight conduit elbows on the junction boxes. With the cable ran into the BlackBox, the connections were tied together with the MC cable from the outlets inside the in-door junction box mounted inside the BlackBox. 
+
+[![BlackBox Demo](/assets/Thumbnail.png)](https://media.econoalchemist.com/w/w8vJyNRf2kUQwwANqsURRR "BlackBox Demo")
