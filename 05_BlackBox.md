@@ -99,8 +99,8 @@ There are many different ways this can be configured. In this demonstration, an 
 In this demonstration, two additional holes for 1/4" bolts were drilled into a water-tight conduit box. These holes linned up with a in-door conduit box which will get mounted on the inside of the BlackBox, directy opposite from the water-tight conduit box. Then a gasket was made using some cork material to go behind the water-tight conduit box, on the outside of the BlackBox. 
 
 <p align="center">
- <img width-"450" src="assets/BB52.jpg">
- <img width="450" src="assets/BB53.jpg">
+ <img src="assets/BB52.jpg">
+ <img src="assets/BB53.jpg">
 </p>  
 
 Using a hole saw, a 3/4" hole was drilled into the side of the BlackBox, then the 1/4" hole locations were marked on either side of it and then drilled out as well. Then using the 1/4" bolts to hold the water-tight conduit box in place, the in-door conduit box was linned up on the inside of the BlackBox and then the nuts were tightened down to secure both junction boxes, pinning the wall of the BlackBox inbetween.  
