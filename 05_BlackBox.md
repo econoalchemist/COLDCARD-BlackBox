@@ -52,15 +52,15 @@ The first material used in this demonstration was carpet padding. Something simi
 Then additional pieces were cut out and wrapped around the "T" section in the middle and also applied to the other two remaining walls. Carpet padding was also added to the lower sections. You'll notice in this photo that there is a vent register in the "T" section in the middle. This is how you can choose to allow hot air to circulate back to the intake side to help with intake air that is too humid and or cold. 
 
 <p align="center">
- <img src="assets/BB33.jpg">
- <img src="assets/BB36.jpg">
+ <img width="450" src="assets/BB33.jpg">
+ <img width="450" src="assets/BB36.jpg">
 </p>
 
 Then the miner and pressure barrier were put back in place. The carpet padding got the noise level down an additional ~5dB.  
 
 <p align="center">
- <img src="assets/BB34.jpg">
- <img src="assets/BB35.jpg">
+ <img width="450" src="assets/BB34.jpg">
+ <img width="450" src="assets/BB35.jpg">
 </p>  
 
 In an effort to get the noise level down even further, a sound board material was used to add an additional layer on top of the carpet padding. After some time, the duct tape was no longer doing a good job holding down the carpet padding on the exhaust side.  
