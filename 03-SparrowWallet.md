@@ -54,32 +54,84 @@ Unfortunately, Bitcoin Core stores your public keys and balances unencrypted on 
 
 Now that Sparrow Wallet is connected with Bitcoin Core, this is a good time to get the hot wallet setup.
 
-## Whirlpool Hot Wallet
+## Configuring Sparrow as a Whirlpool Wallet
 This section will show you how to set up the hot wallet that you can use for the Whirlpool CoinJoin implementation in Sparrow Wallet. Using Whirlpool will help prevent the mining pool from seeing what you do with your mining rewards (or anyone watching the movement of mining rewards on chain) and this will also help prevent anyone you spend your bitcoin with from knowing that you earned that bitcoin through mining. 
 
 The important idea to understand here is that you are making a hot wallet in Sparrow that is totally separate from your COLDCARD wallet. You want to keep your COLDCARD wallet totally air-gapped and never have that signing key on a device that is connected to the internet. When you use Whirlpool however, Sparrow Wallet needs to sign CoinJoin transactions as they are created. The benefit of leaving your UTXOs in Sparrow Wallet to mix is that your UTXOs will continually be registered as available inputs when new liquidity enters the mixing pool. Your UTXOs will be able to continue re-mixing again and again for free, so you get more and more anonymity with each mix, this is the incentive to leave your UTXOs mixing. The downside is that you have a Bitcoin wallet connected to the internet with private keys on it, thus the term "hot wallet". 
 
 The hot wallet will be used to deposit the mining rewards to, then they will be mixed, and once the UTXOs are in the post-mix hot wallet, you can choose to set a minimum number of mixes you want to achieve and then have them automatically deposited to your COLDCARD. This is where things get interesting, when you have a post-mix UTXO deposited to the COLDCARD straight from a CoinJoin, on-chain it is impossible to tell that this has been moved to a different wallet. It looks like it is just an unspent CoinJoin output. And so long as it remains unspent, then while other UTXOs from that last CoinJoin transaction continue to mix, your anonymity continues to grow. 
 
+To get started, open the Sparrow Wallet application, you should be presented with a blank home page and you should see that the toggle switch in the lower right-hand corner is colored yellow if you are using a public Electrum server, green if you are using Bitcoin Core, or blue if you are using your own Electrum server. 
 
+Navigate to `file` > `New Wallet`. Then name your new wallet whatever you want and select <kbd>Create Wallet</kbd>. 
 
+<p align="center">
+  <img width="450" src="assets/sparrow100.png">
+  <img width="450" src="assets/sparrow101.png">
+</p>
 
+The next you will be presented with is going to ask you for some specific information about how you want to configure your new wallet. For the purposes of a Whirlpool hot wallet, the following default options are fine:
 
+- Policy Type: `Single Signature`
+- Script Type: `Native Segwit (P2WPKH)`
+- Script Policy Descriptor: `wpkh(Keystore1)`
+- Then under the `Keystore 1` section choose: `New or Imported Software Wallet`
 
+<p align="center">
+  <img src="assets/sparrow102.png">
+</p>
+  
+On the screen that pops up, click on the drop down menu that says <kbd>Use 24 Words</kbd> and select how many seed words you want in your seed phrase. 24-words are used for this demonstration. Then click on the button that reads <kbd>Use 24 Words</kbd>, or what ever number of words you selected. 
+  
+<p align="center">
+  <img src="assets/sparrow103.png">
+</p>  
+  
+Next, you will be presented with a screen full of blank cells for your seed words. Click on <kbd>Generate New</kbd> and these cells will be filled in from the results of the Sparrow Wallet Random Number Generator. 
 
+<p align="center">
+  <img width="450" src="assets/sparrow104.png">
+  <img width="450" src="assets/sparrow105.png">
+</p>
 
+Ensure that you write these words down, in order, in a note book or other piece of paper that you can keep secure in the way you would with gold, cash, or jewelry. Never share these words with anyone, they will have access to your bitcoin. Do not take a screen shot of these words. Do not take a photograph of these words. Do not say them out loud. Do not put them in a text file.
 
+The passphrase is optional but recommended. If anyone ever gains access to your seed words, then the passphrase will be the only thing protecting your bitcoin. Using a high entropy passphrase will make it difficult for anyone to guess your passphrase. Ensure that you also write this passphrase down, you will not be able to restore your wallet without it in the event that you need to attempt to recover your bitcoin. There is no way for the wallet to know what your passphrase is and any passphrase you enter will be accepted. If you enter the passphrase incorrectly in the future due to forgetting or losing it, you will lose access to your bitcoin. Also, consider storing your passphrase seperately from the seed phrase because if anyone finds them together then for sure they will swipe your bitcoin. 
+  
+Many people choose to stamp their seed words and passphrase into a metal medium because it can withstand extreme environments like fire and flooding better than paper. For this kind of wallet though, you may only be using it as a pass through to get mining rewards through Whirlpool before depositing them to your COLDCARD. Perhaps given the short time you will have bitcoin in this wallet is reason enough to not go through the trouble of stamping the information into metal. The choice is totally up to you and there are many options out there like the [SEEDPLATE](https://bitcoinseedbackup.com/) from Coinkite.  
+  
+After clicking on <kbd>Confirm Backup</kbd> you will see a dialog box popup asking you if you have written the seed words down, click on <kbd>Re-enter Words</kbd>.
+  
+Then type all your seed words in order and enter your passphrase. If you make a spelling mistake, the wallet will warn you by highlighting the incorrect word in red. Once everything is correct and you have entered your passphrase, click on <kbd>Create Keystore</kbd>. 
 
+<p align="center">
+ <img src="assets/sparrow106.png">
+</p>
 
+The next screen will show you the derivation path, leaving this as the default is fine and recommended unless you have a specific reason you want to change it and you understand the implications of doing so. Click on <kbd>Import Keystore</kbd>, leaving the account from the drop-down menu on the default setting, `#0`. You will be asked to enter your passphrase again in a pop-up dialog.  
 
+<p align="center">
+ <img src="assets/sparrow107.png">
+</p>
 
+The next screen will display the summary details of the wallet you have just created. One important item to note here is the `Master Fingerprint`. This is a unique checksum that accompanies your passphrase. Any passphrase you enter will generate a different fingerprint. This is how you can verify that you have entered your passphrase correctly the next time you open this wallet. You can always come back to this page and find this information when you select the `Settings` tab from the left-hand side menu. You can store your fingerprint with your passphrase, this does not compromise your security. Once you have you the fingerprint written down, click on <kbd>Apply</kbd>. 
 
+You will be asked if you would like to add a password to this wallet. This password is different than your passphrase, the password is used to encrypt the wallet data file that Sparrow Wallet saves on your computer. Having this file password protected will add an additional layer of security in case anyone gains access to your computer. 
 
+<p align="center">
+ <img src="assets/sparrow108.png">
+</p>
 
+## Using Whirlpool
+Now that you have your wallet all setup, you are ready to start using Whirlpool. You will need some bitcoin deposited into your wallet first. To get a receiving address, navigate to the `Receive` tab on the left-hand side menu and you will be presented with a QR code and the text of your first bitcoin address. You could copy/paste this address into your SlushPool account and have your mining rewards automatically deposited there. Changing your SlishPool reward address in between each payout can help you preserve your privacy. 
 
+<p align="center">
+ <img src="assets/sparrow109.png">
+</p>
 
+Once you receive your first payout, you will see the transaction appear in Sparrow Wallet, under the `Transactions` tab on the left-hand side menu. 
 
-## Watch-Only & Signing with the COLDCARD
+## Sparrow as a Watch-Only wallet & Signing with the COLDCARD
 In order to keep your COLDCARD air-gapped, the Partially Signed Bitcoin Transaction (PSBT) can be utilized to spend bitcoin from the COLDCARD without ever connecting it to the internet. Basically, the public information from the COLDCARD called an XPUB will be used to import the necessary information into Sparrow Wallet on our desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the COLDCARD's balance, and initiate PSBT's. All without exposing any of the private information from the COLDCARD, like the signing key. 
 
 You will use the microSD card to transfer information between the desktop and the COLDCARD. Ensure the microSD card is inserted to the COLDCARD. 
