@@ -21,9 +21,9 @@ This guide covers:
 ### Sparrow Wallet
 - Getting started with [Sparrow Wallet](https://www.sparrowwallet.com/)
 - Creating a hot wallet
-- Generating addresses
 - How to use Whirlpool
 - Configure Whirlpool to deposit directly to COLDCARD 
+- Air-gapped signing with the COLDCARD
 
 ### Slush Pool
 - Creating a mining account
