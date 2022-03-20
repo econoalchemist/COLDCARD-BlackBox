@@ -164,16 +164,13 @@ You can check all the addresses you are sending to with the different tabs in th
 
 You'll also notice that four additional tabs showed up on the right-hand side of Sparrow Wallet. These are basically four separate wallets you have so that you can manage your bitcoin safely.
 
-- The `Deposit` tab will be where you generate receiving addresses, this works just like any other bitcoin wallet, you can send from here too if you really wanted to. - The `Premix` tab is where you can view the history of your pre-mix UTXOs, you do not want to manually receive or send bitcoin from this wallet. 
+- The `Deposit` tab will be where you generate receiving addresses, this works just like any other bitcoin wallet, you can send from here too if you really wanted to.
+- The `Premix` tab is where you can view the history of your pre-mix UTXOs, you do not want to manually receive or send bitcoin from this wallet. 
 - The `Postmix` tab is where you will see your UTXOs after they have been mixed. All the UTXOs in this wallet have been through at least one CoinJoin transaction. So long as you leave these UTXOs in here, they will continually be registered as available UTXOs when new liquidity enters the Whirlpool and they will re-mix for free. So the longer you leave UTXOs in here, the more mixes they will get and the more anonymity you will achieve. 
 - The `Badbank` tab is where your txic change from the "tx0" gets sequestered from the rest of your funds. You want to be careful what you do with this toxic change. If you combine it with your postmix UTXOs then you will be defeating the privacy gains you got in Whirlpool. 
 
 <p align="center">
  <img src="assets/sparrow116.png">
-</p> 
-
-<p align="center">
- <img src="assets/sparrow115.png">
 </p> 
 
 ## Sparrow as a Watch-Only wallet & Signing with the COLDCARD
