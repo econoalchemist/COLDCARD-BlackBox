@@ -1,5 +1,4 @@
 # Installing the BlackBox
-# BlackBox
 This section will demonstrate the basic setup for your BlackBox enclosure. The intent of the BlackBox enclosure is to allow the user to run their mining ASIC hardware outdoors where the heat and noise could more easily be controlled or dissipated. Excessive heat and noise are common problems users experience when mining bitcoin in the home or working space. In this demonstration, the final BlackBox installation was outdoors. Give some forethought as to where you will be installing your BlackBox:
 
 - How far is going to be from a suitable power source?
