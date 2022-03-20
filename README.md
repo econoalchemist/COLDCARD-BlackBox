@@ -14,7 +14,7 @@ This guide covers:
 - Backup recommendations
 
 ### BlackBox
-- Setup
+- Prepare your BlackBox and suggestions for sound treatment
 - Miner pressure barrier
 - Connecting power and Ethernet
 
