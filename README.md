@@ -24,8 +24,9 @@ This guide covers:
 - Configuring a payout address
 
 ### Sparrow Wallet
-- Getting started with [Sparrow Wallet](https://www.sparrowwallet.com/)
+- Getting started
 - Creating a hot wallet
 - How to use Whirlpool
+- Import COLDCARD Watch-Obly wallet
 - Configure Whirlpool to deposit directly to COLDCARD 
 - Air-gapped signing with the COLDCARD
