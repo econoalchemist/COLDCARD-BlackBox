@@ -47,7 +47,7 @@ For this demonstration some testing was carried out to check the sound levels wi
  <img width="450" src="assets/BB28.jpg"> 
 </p>
 
-Just checking the ambient noise floor of the garage without the miner running, was ~33dB. With the miner running and the lid open, the noise level was ~82dB. With the miner running and the lid closed, the noise level was ~60dB. ~22dB reduction with no sound treatment is very good in terms of noise attenuation, humans precieve a 10dB attenuation in a noise source as being half as loud, a 20dB attenuation is preceived as a quarter as loud. 
+Just checking the ambient noise floor of the garage without the miner running, was ~33dB. With the miner running and the lid open, the noise level was ~82dB. With the miner running and the lid closed, the noise level was ~60dB. ~22dB reduction with no sound treatment is very good in terms of noise attenuation, humans perceive a 10dB attenuation in a noise source as being half as loud, a 20dB attenuation is perceived as a quarter as loud. 
 
 <p align="center">
  <img width="325" src="assets/BB26.jpg">
@@ -93,7 +93,7 @@ The basic idea was to just cover the surfaces on the four walls in the upper sec
  <img src="assets/BB44.jpg">
 </p>  
 
-This particular sound board material is flamible. Just for good measure, a layer of foil tape was applied to the sections of board that would be in the hot exhaust path. The foil tape was also used to help secure the four panels against the wall.  
+This particular sound board material is flammable. Just for good measure, a layer of foil tape was applied to the sections of board that would be in the hot exhaust path. The foil tape was also used to help secure the four panels against the wall.  
 
 <p align="center">
  <img width="450" src="assets/BB45.jpg">
@@ -107,21 +107,21 @@ Then the miner was placed back in the box, the pressure barrier was trimmed down
  <img width="450" src="assets/BB48.jpg">
 </p>  
 
-Now that the sound treatment is satisfactory, the BlockBox is ready to be installed in its permanant locaton. But first there needs to be a way to connect it to power and Ethernet.
+Now that the sound treatment is satisfactory, the BlockBox is ready to be installed in its permanent location. But first there needs to be a way to connect it to power and Ethernet.
 
 ## Electrical and Ethernet
 Each BlackBox ships with a coupling to run the cables through for the customer to install themselves. There is no way to know which side of the BlackBox the customer is going to need the cables to pass through, so it is better if the customer just drills the hole in the side of the BlackBox with a hole saw where they need it. 
 
 There are many different ways this can be configured. In this demonstration, an Antminer S19j Pro 110Th miner was used for the final install. These miners require two outlets. The outlets were installed inside the BlackBox in this case. Then the power was ran to the box using water-tight conduit. You may not want to install your outlets inside the BlackBox and may prefer to have them installed on a wall near by so that the wiring doesn't have to be un-done in order to move the BlackBox. 
 
-In this demonstration, two additional holes for 1/4" bolts were drilled into a water-tight conduit box. These holes linned up with an in-door conduit box which was mounted on the inside of the BlackBox, directy opposite from the water-tight conduit box. Then a gasket was made using some cork material to go behind the water-tight junction box, on the outside of the BlackBox. 
+In this demonstration, two additional holes for 1/4" bolts were drilled into a water-tight conduit box. These holes lined up with an in-door conduit box which was mounted on the inside of the BlackBox, directly opposite from the water-tight conduit box. Then a gasket was made using some cork material to go behind the water-tight junction box, on the outside of the BlackBox. 
 
 <p align="center">
  <img src="assets/BB52.jpg">
  <img src="assets/BB53.jpg">
 </p>  
 
-Using a hole saw, a 3/4" hole was drilled into the side of the BlackBox, then the 1/4" hole locations were marked on either side of it and then drilled out as well. Then using the 1/4" bolts to hold the water-tight conduit box in place, the in-door conduit box was linned up on the inside of the BlackBox and then the nuts were tightened down to secure both junction boxes, pinning the wall of the BlackBox inbetween.  
+Using a hole saw, a 3/4" hole was drilled into the side of the BlackBox, then the 1/4" hole locations were marked on either side of it and then drilled out as well. Then using the 1/4" bolts to hold the water-tight conduit box in place, the in-door conduit box was lined up on the inside of the BlackBox and then the nuts were tightened down to secure both junction boxes, pinning the wall of the BlackBox in between.  
 
 <p align="center">
  <img src="assets/BB57.jpg">
@@ -135,7 +135,7 @@ Then the outlet boxes were mounted to the wing wall inside the BlackBox on the i
  <img src="assets/BB55.jpg">
 </p> 
 
-Now the site for the BlackBox could be prepared. In this demonstration, a pallet was used to keep the BlackBox up off the ground. The dirt/woordchip was shuffled around to make sure the area was level first. 
+Now the site for the BlackBox could be prepared. In this demonstration, a pallet was used to keep the BlackBox up off the ground. The dirt/wood-chip was shuffled around to make sure the area was level first. 
 
 <p align="center">
  <img src="assets/BB59.jpg">
@@ -146,7 +146,7 @@ Inside the garage, there was a 100 amp sub panel. A 20 amp dedicated breaker was
 
 [![BlackBox Demo](/assets/Thumbnail.png)](https://media.econoalchemist.com/w/w8vJyNRf2kUQwwANqsURRR "BlackBox Demo")
 
-You will also need an Ethernet connection for your BlackBox. There are several different solutions for making the required network connection such as powerline adaptors or mesh WiFi satellites. In this demonstration, the Ethernet cable was ran from a switch inside the home, burried in the ground along the run through the yard over to the garage, and through the water-tight junction box. If you are not comfortable installing your own cable then call a licensed professional. Depending on your installation you may need to terminate your own cables, drill holes in your walls, and enter your attic or crawlspace. You can buy 100 feet of outdoor rated CAT5e Ethernet cable, a box of RJ45 connectors, and the crimping tool from your local hardware store.
+You will also need an Ethernet connection for your BlackBox. There are several different solutions for making the required network connection such as power line adaptors or mesh WiFi satellites. In this demonstration, the Ethernet cable was ran from a switch inside the home, buried in the ground along the run through the yard over to the garage, and through the water-tight junction box. If you are not comfortable installing your own cable then call a licensed professional. Depending on your installation you may need to terminate your own cables, drill holes in your walls, and enter your attic or crawlspace. You can buy 100 feet of outdoor rated CAT5e Ethernet cable, a box of RJ45 connectors, and the crimping tool from your local hardware store.
 
 <p align="center">
  <img src="assets/ETH00.jpg">
@@ -166,7 +166,7 @@ There are some good guides online for making your own Ethernet cables, such as [
  <img width="325" src="assets/IMG_5950.JPG">
 </p> 
 
-The Ethernet cable was routed through an extra port on the water-tight conduit junction box. These junction boxes come with little platic threaded caps, you can simply drill a hole through them and feed the unterminated Ethernet cable through to the inside of the BlackBox. 
+The Ethernet cable was routed through an extra port on the water-tight conduit junction box. These junction boxes come with little plastic threaded caps, you can simply drill a hole through them and feed the un-terminated Ethernet cable through to the inside of the BlackBox. 
 
 <p align="center">
  <img src="assets/BB60.jpg">
