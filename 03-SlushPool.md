@@ -112,7 +112,7 @@ Repeat this process for the other two failover servers, picking a different serv
 ![](assets/slush19_1.png)
 
 ## Antminer
-The ASIC needs to be rebooted in order for these changes to take effect. Click on <kbd>Restart Miner</kbd> in the lower right-hand corner, then again in the pop-up promt. You should hear the fans spool down and back up again.
+The ASIC needs to be rebooted in order for these changes to take effect. Click on <kbd>Restart Miner</kbd> in the lower right-hand corner, then again in the pop-up prompt. You should hear the fans spool down and back up again.
 
 ![](assets/startup4.png)
 
