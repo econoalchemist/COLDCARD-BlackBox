@@ -21,7 +21,7 @@ Everyone will have a unique install situation. In this demonstration, the BlackB
 
 The enclosure is designed with the ASIC raised on a platform above the air intake/discharge with a symmetrical ‘S' shaped air flow path connecting each. This flow path allows snow, rain or dirt to fall out before it enters the ASIC, potentially causing damage. The ASIC itself is the prime mover of the heated air with an added barrier creating a pressure seal between the low pressure intake side and the high pressure discharge. The "tortuous" shape of the air flow path also helps deaden the sound waves as it reflects and is absorbed within the enclosure, reducing overall noise. The supporting column holding up the ASIC separates the ‘hot'/'cold' aisles and includes an air recirculating valve (air register) which gives the user the ability to recirculate heat when needed, for example in cold or humid climates. Finally, the design also allows for power scalability by elongating the dimension of the box perpendicular to the air flow path, enabling room for more mining ASICs up to 12 in a row in an 8' long enclosure.
 
-The BlackBox weighs approximately 110 lbs, be sure to have another person help you move it. The dimensions are X"H x X"W x X"D.
+The BlackBox weighs approximately 110 lbs, be sure to have another person help you move it. The exterior dimensions are 36"H x 32"W x 28"D.
 
 Double check that everything looks good once you unpack your BlackBox, checking for dents or scratches, making sure the latches and hinges work, and the filters are in good shape and the bolt-action locks don't bind up. 
 
@@ -142,6 +142,28 @@ Now the site for the BlackBox could be prepared. In this demonstration, a pallet
  <img src="assets/BB56.jpg">
 </p> 
 
-Inside the garage, there was a 100 amp sub panel. A 20 amp dedicated breaker was installed. Then using [12/2 MC](https://www.homedepot.com/p/AFC-Cable-Systems-12-2-x-50-ft-Solid-MC-Lite-Cable-2104S24-AFC/205015282), A line was ran on the inside of the garage, along the wall from the sub-panel to the opposite side of the wall where the BlackBox was going to be installed. Then a hole was drilled through the wall. An in-door junction box was mounted on the inside wall where the cable would pass through. On the exterior, another water-tight conduit junction box was mounted on the outside wall. Then, using water-tight conduit, 12GA wire was ran through the conduit and then it was connected to the water-tight conduit elbows on the junction boxes. With the cable ran into the BlackBox, the connections were tied together with the MC cable from the outlets inside the in-door junction box mounted inside the BlackBox. 
+Inside the garage, there was a 100 amp sub panel. A 20 amp dedicated breaker was installed. Then using [12/2 MC](https://www.homedepot.com/p/AFC-Cable-Systems-12-2-x-50-ft-Solid-MC-Lite-Cable-2104S24-AFC/205015282), a line was ran on the inside of the garage, along the wall from the sub-panel to the opposite side of the wall where the BlackBox was going to be installed. Then a hole was drilled through the wall. An in-door junction box was mounted on the inside wall where the cable would pass through. On the exterior, another water-tight conduit junction box was mounted on the outside wall. Then using water-tight conduit, 12GA wire was ran through the conduit and then it was connected to the water-tight conduit elbows on the junction boxes. With the cable ran into the BlackBox, the connections were tied together with the MC cable from the outlets inside the in-door junction box mounted inside the BlackBox. 
 
 [![BlackBox Demo](/assets/Thumbnail.png)](https://media.econoalchemist.com/w/w8vJyNRf2kUQwwANqsURRR "BlackBox Demo")
+
+You will also need an Ethernet connection for your BlackBox. There are several different solutions for making the required network connection such as powerline adaptors or mesh WiFi satellites. In this demonstration, the Ethernet cable was ran from a switch inside the home, burried in the ground along the run through the yard over to the garage, and through the water-tight junction box. If you are not comfortable installing your own cable then call a licensed professional. Depending on your installation you may need to terminate your own cables, drill holes in your walls, and enter your attic or crawlspace. You can buy 100 feet of outdoor rated CAT5e Ethernet cable, a box of RJ45 connectors, and the crimping tool from your local hardware store.
+
+<p align="center">
+ <img src="assets/ETH00.jpg">
+</p> 
+
+Then you need to decide which standard you want to use for your Ethernet cable, either T568A or T568B. So long as you terminate both ends of the cable with the same configuration, it really shouldn't matter which one you choose. All the wires are the same color on the inside after all. 
+
+<p align="center">
+ <img src="assets/rj45.jpg">
+</p> 
+
+There are some good guides online for making your own Ethernet cables, such as [this](https://www.howtogeek.com/60486/how-to-make-your-own-custom-length-network-cables/) one. The full details here on how to terminate your Ethernet cables won't be covered here since there are so many good [videos](https://www.youtube.com/results?search_query=how+to+rj45) and guides online. But just a few things to point out; make sure your wire color order is the same on both ends, make sure the wires go all the way to the end of the RJ45 connector, and make sure there is some of the insulated outer jacket where the pinch point clamps down on the cable in the RJ45 connector. 
+
+<p align="center">
+ <img width="325" src="assets/IMG_5954.JPG">
+ <img width="350" src="assets/IMG_5955.JPG">
+ <img width="350" src="assets/IMG_5950.JPG">
+</p> 
+
+The Ethernet cable was routed through an extra port on the water-tight conduit junction box. These junction boxes come with little platic threaded caps
