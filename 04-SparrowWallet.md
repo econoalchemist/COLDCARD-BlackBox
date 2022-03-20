@@ -132,7 +132,7 @@ Now that you have your wallet all setup, you are ready to start using Whirlpool.
 Once you receive your first payout, you will see the transaction appear in Sparrow Wallet, under the `Transactions` tab on the left-hand side menu. In this example, 0.01 BTC was received. 
 
 <p align="center">
- <img src="assets/sparrow110.png">
+ <img src="assets/sparrow110_1.png">
 </p>
 
 Now that you have some bitcoin, navigate to the `UTXOs` tab in the left-hand side menu and then select the UTXO you are interested in. You will see the `Mix Selected` button appear once you select the UTXO(s). Click on that button and then click `Next` in the two pop-up explainer windows that describe the Whirlpool process.  
@@ -164,14 +164,16 @@ You can check all the addresses you are sending to with the different tabs in th
 
 You'll also notice that four additional tabs showed up on the right-hand side of Sparrow Wallet. These are basically four separate wallets you have so that you can manage your bitcoin safely.
 
-- The `Deposit` tab will be where you generate receiving addresses, this works just like any other bitcoin wallet, you can send from here too if you really wanted to.
+- The `Deposit` tab will be where you generate receiving addresses, this works just like any other bitcoin wallet, you can send from here too if you wanted to just make a normal bitcoin transaction.
 - The `Premix` tab is where you can view the history of your pre-mix UTXOs, you do not want to manually receive or send bitcoin from this wallet. 
 - The `Postmix` tab is where you will see your UTXOs after they have been mixed. All the UTXOs in this wallet have been through at least one CoinJoin transaction. So long as you leave these UTXOs in here, they will continually be registered as available UTXOs when new liquidity enters the Whirlpool and they will re-mix for free. So the longer you leave UTXOs in here, the more mixes they will get and the more anonymity you will achieve. 
-- The `Badbank` tab is where your txic change from the "tx0" gets sequestered from the rest of your funds. You want to be careful what you do with this toxic change. If you combine it with your postmix UTXOs then you will be defeating the privacy gains you got in Whirlpool. 
+- The `Badbank` tab is where your toxic change from the "tx0" gets sequestered from the rest of your funds. You want to be careful what you do with this toxic change. If you combine it with your postmix UTXOs then you will be degrading the privacy gains you got in Whirlpool. 
 
 <p align="center">
  <img src="assets/sparrow116.png">
 </p> 
+
+And that's how to use Whirlpool in Sparrow Wallet. Another great benefit are the build in postmix spending tools that allow you to better preserve your anonymity. For an overview of how these transaction work check out [this guide](https://www.econoalchemist.com/post/putting-the-who-in-cahoots) on collaborative spends, although the instructions are not specific to Sparrow Wallet, you will understand the mechanics of what these transactions are doing. 
 
 Next, you'll see how to configure your COLDCARD as a Watch-Only wallet in Sparrow Wallet which allows you to keep an eye on your balance and generate receiving addresses while keeping the COLDCARD totally air-gapped. Once the Watch-Only wallet is imported then it can be set to deposit to directly from Whirlpool CoinJoins. 
 
