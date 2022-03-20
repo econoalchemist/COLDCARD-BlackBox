@@ -162,8 +162,8 @@ There are some good guides online for making your own Ethernet cables, such as [
 
 <p align="center">
  <img width="325" src="assets/IMG_5954.JPG">
- <img width="350" src="assets/IMG_5955.JPG">
- <img width="350" src="assets/IMG_5950.JPG">
+ <img width="325" src="assets/IMG_5955.JPG">
+ <img width="325" src="assets/IMG_5950.JPG">
 </p> 
 
 The Ethernet cable was routed through an extra port on the water-tight conduit junction box. These junction boxes come with little platic threaded caps, you can simply drill a hole through them and feed the unterminated Ethernet cable through to the inside of the BlackBox. 
