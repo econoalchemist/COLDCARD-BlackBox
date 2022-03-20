@@ -129,7 +129,52 @@ Now that you have your wallet all setup, you are ready to start using Whirlpool.
  <img src="assets/sparrow109.png">
 </p>
 
-Once you receive your first payout, you will see the transaction appear in Sparrow Wallet, under the `Transactions` tab on the left-hand side menu. 
+Once you receive your first payout, you will see the transaction appear in Sparrow Wallet, under the `Transactions` tab on the left-hand side menu. In this example, 0.01 BTC was received. 
+
+<p align="center">
+ <img src="assets/sparrow110.png">
+</p>
+
+Now that you have some bitcoin, navigate to the `UTXOs` tab in the left-hand side menu and then select the UTXO you are interested in. You will see the `Mix Selected` button appear once you select the UTXO(s). Click on that button and then click `Next` in the two pop-up explainer windows that describe the Whirlpool process.  
+
+<p align="center">
+ <img src="assets/sparrow111.png">
+</p>
+
+Then if you have an "SCODE" you can enter it in the third window. The "SCODE" can be used for discounted CoinJoin fees announced by [@SamouraiWallet](https://twitter.com/SamouraiWallet). Then click on <kbd>Next</kbd>. 
+
+<p align="center">
+ <img width="550" src="assets/sparrow112.png">
+ <img width="350" src="assets/sparrow113.png">
+</p>
+
+Then you will be presented with a preview describing which pool is appropriate for your BTC amount, the anonset, the pool fee, and how many UTXOs you will have as eligable inputs for CoinJoins. Then click on <kbd>Preview Premix</kbd>
+
+<p align="center">
+ <img src="assets/sparrow114.png">
+</p>  
+
+You will be presented with the overview of the transaction you are creating called "tx0". This transaction it what splits your input into the several outputs you are creating that will be used as inputs to the CoinJoin transactions you are about to participate in when Whirlpooling. 
+
+You can check all the addresses you are sending to with the different tabs in the `Send` section. There is a graph which gives you a visual indication of how the transaction is being split up; noting the Whirlpool fee, Badbank Change, the Premix UTXOs, and the miners fee. If everything looks good, click on `Broadcast Premix Transaction`. 
+
+<p align="center">
+ <img src="assets/sparrow115.png">
+</p> 
+
+You'll also notice that four additional tabs showed up on the right-hand side of Sparrow Wallet. These are basically four separate wallets you have so that you can manage your bitcoin safely.
+
+- The `Deposit` tab will be where you generate receiving addresses, this works just like any other bitcoin wallet, you can send from here too if you really wanted to. - The `Premix` tab is where you can view the history of your pre-mix UTXOs, you do not want to manually receive or send bitcoin from this wallet. 
+- The `Postmix` tab is where you will see your UTXOs after they have been mixed. All the UTXOs in this wallet have been through at least one CoinJoin transaction. So long as you leave these UTXOs in here, they will continually be registered as available UTXOs when new liquidity enters the Whirlpool and they will re-mix for free. So the longer you leave UTXOs in here, the more mixes they will get and the more anonymity you will achieve. 
+- The `Badbank` tab is where your txic change from the "tx0" gets sequestered from the rest of your funds. You want to be careful what you do with this toxic change. If you combine it with your postmix UTXOs then you will be defeating the privacy gains you got in Whirlpool. 
+
+<p align="center">
+ <img src="assets/sparrow116.png">
+</p> 
+
+<p align="center">
+ <img src="assets/sparrow115.png">
+</p> 
 
 ## Sparrow as a Watch-Only wallet & Signing with the COLDCARD
 In order to keep your COLDCARD air-gapped, the Partially Signed Bitcoin Transaction (PSBT) can be utilized to spend bitcoin from the COLDCARD without ever connecting it to the internet. Basically, the public information from the COLDCARD called an XPUB will be used to import the necessary information into Sparrow Wallet on our desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the COLDCARD's balance, and initiate PSBT's. All without exposing any of the private information from the COLDCARD, like the signing key. 
