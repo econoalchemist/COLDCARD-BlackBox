@@ -8,7 +8,7 @@ In this guide you will see how to:
 - How to spend from air-gapped COLDCARD. 
 
 ## Bitcoin Core
-If you don't have your own Bitcoin Core node, you can use reputable public Electrum servers as demonstrated in the [UltraQuick guide](https://coldcard.com/docs/ultra-quick). However, there are privacy tradeoffs that come with using the convenience of a public Electrum server. Luckily there are a number of resources available to help you spin up your own Bitcoin node, to learn more check out:
+If you don't have your own Bitcoin Core node, you can use reputable public Electrum servers as demonstrated in the [UltraQuick guide](https://coldcard.com/docs/ultra-quick). However, there are privacy trade offs that come with using the convenience of a public Electrum server. Luckily there are a number of resources available to help you spin up your own Bitcoin node, to learn more check out:
 
 - [BitcoinCore.org](https://bitcoincore.org/en/about/)
 - [Ministry of Nodes](https://www.ministryofnodes.com.au/) 
@@ -50,7 +50,7 @@ Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd
   <img src="assets/Sparrow21.png">
 </p>
 
-Unfortunately, Bitcoin Core stores your public keys and balances unencrypted on the computer it is running on. Although your bitcoin are not directly at risk of theft, if this computer is regularly connected to the internet, it is at risk to hackers - which has the potential to make you a target if your balance and geographic location are discovered. To learn more about Sparrow Wallet best practices, check out [this Sparrow Wallet resource](https://www.sparrowwallet.com/docs/best-practices.html). 
+Unfortunately, Bitcoin Core stores your public keys and balances un-encrypted on the computer it is running on. Although your bitcoin are not directly at risk of theft, if this computer is regularly connected to the internet, it is at risk to hackers - which has the potential to make you a target if your balance and geographic location are discovered. To learn more about Sparrow Wallet best practices, check out [this Sparrow Wallet resource](https://www.sparrowwallet.com/docs/best-practices.html). 
 
 Now that Sparrow Wallet is connected with Bitcoin Core, this is a good time to get the hot wallet setup.
 
@@ -63,7 +63,7 @@ The hot wallet will be used to deposit the mining rewards to, then they will be 
 
 To get started, open the Sparrow Wallet application, you should be presented with a blank home page and you should see that the toggle switch in the lower right-hand corner is colored yellow if you are using a public Electrum server, green if you are using Bitcoin Core, or blue if you are using your own Electrum server. 
 
-Navigate to `file` > `New Wallet`. Then name your new wallet whatever you want and select <kbd>Create Wallet</kbd>. Alternatively, there is a convienient method to derive entropy from your COLDCARD for external wallets using BIP85, you could generate a seed phrase to import here instead and then so long as you have your master seed phrase and the corresponding index number safe, you will always be able to restore the derived seedphrase as well. To learn more about BIP85 read [this guide](https://www.econoalchemist.com/post/deriving-entropy-on-coldcard-wallet-with-bip85). 
+Navigate to `file` > `New Wallet`. Then name your new wallet whatever you want and select <kbd>Create Wallet</kbd>. Alternatively, there is a convenient method to derive entropy from your COLDCARD for external wallets using BIP85, you could generate a seed phrase to import here instead and then so long as you have your master seed phrase and the corresponding index number safe, you will always be able to restore the derived seed phrase as well. To learn more about BIP85 read [this guide](https://www.econoalchemist.com/post/deriving-entropy-on-coldcard-wallet-with-bip85). 
 
 <p align="center">
   <img width="450" src="assets/sparrow100.png">
@@ -96,7 +96,7 @@ Next, you will be presented with a screen full of blank cells for your seed word
 
 Ensure that you write these words down, in order, in a note book or other piece of paper that you can keep secure in the way you would with gold, cash, or jewelry. Never share these words with anyone, they will have access to your bitcoin. Do not take a screen shot of these words. Do not take a photograph of these words. Do not say them out loud. Do not put them in a text file.
 
-The passphrase is optional but recommended. If anyone ever gains access to your seed words, then the passphrase will be the only thing protecting your bitcoin. Using a high entropy passphrase will make it difficult for anyone to guess your passphrase. Ensure that you also write this passphrase down, you will not be able to restore your wallet without it in the event that you need to attempt to recover your bitcoin. There is no way for the wallet to know what your passphrase is and any passphrase you enter will be accepted. If you enter the passphrase incorrectly in the future due to forgetting or losing it, you will lose access to your bitcoin. Also, consider storing your passphrase seperately from the seed phrase because if anyone finds them together then for sure they will swipe your bitcoin. 
+The passphrase is optional but recommended. If anyone ever gains access to your seed words, then the passphrase will be the only thing protecting your bitcoin. Using a high entropy passphrase will make it difficult for anyone to guess your passphrase. Ensure that you also write this passphrase down, you will not be able to restore your wallet without it in the event that you need to attempt to recover your bitcoin. There is no way for the wallet to know what your passphrase is and any passphrase you enter will be accepted. If you enter the passphrase incorrectly in the future due to forgetting or losing it, you will lose access to your bitcoin. Also, consider storing your passphrase separately from the seed phrase because if anyone finds them together then for sure they will swipe your bitcoin. 
   
 Many people choose to stamp their seed words and passphrase into a metal medium because it can withstand extreme environments like fire and flooding better than paper. For this kind of wallet though, you may only be using it as a pass through to get mining rewards through Whirlpool before depositing them to your COLDCARD. Perhaps given the short time you will have bitcoin in this wallet is reason enough to not go through the trouble of stamping the information into metal. The choice is totally up to you and there are many options out there like the [SEEDPLATE](https://bitcoinseedbackup.com/) from Coinkite.  
   
@@ -148,7 +148,7 @@ Then if you have an "SCODE" you can enter it in the third window. The "SCODE" ca
  <img width="350" src="assets/sparrow113.png">
 </p>
 
-Then you will be presented with a preview describing which pool is appropriate for your BTC amount, the anonset, the pool fee, and how many UTXOs you will have as eligable inputs for CoinJoins. Then click on <kbd>Preview Premix</kbd>
+Then you will be presented with a preview describing which pool is appropriate for your BTC amount, the anonset, the pool fee, and how many UTXOs you will have as eligible inputs for CoinJoins. Then click on <kbd>Preview Premix</kbd>
 
 <p align="center">
  <img src="assets/sparrow114.png">
@@ -318,4 +318,3 @@ At the time of broadcast you should see the transaction in BitcoinCore as well a
 </p>
 
 The main point here is that your COLDCARD is the required signing device while your Sparrow Wallet is your interface, transaction builder, & broadcaster. In this configuration, Sparrow Wallet can do many things like catalog addresses and build transactions but without the signature from your COLDCARD, Sparrow Wallet cannot authorize spending of any of your bitcoin. 
-
