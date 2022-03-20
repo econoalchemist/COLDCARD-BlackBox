@@ -1,5 +1,17 @@
 # Installing the BlackBox
-This section will demonstrate how to install a BlackBox; sound treatment and electrical connection are covered here. The intent of the BlackBox enclosure is to allow the user to run their mining ASIC hardware outdoors where the heat and noise could more easily be controlled or dissipated. Excessive heat and noise are common problems users experience when mining bitcoin in the home or working space.
+# BlackBox
+This section will demonstrate the basic setup for your BlackBox enclosure. The intent of the BlackBox enclosure is to allow the user to run their mining ASIC hardware outdoors where the heat and noise could more easily be controlled or dissipated. Excessive heat and noise are common problems users experience when mining bitcoin in the home or working space. In this demonstration, the final BlackBox installation was outdoors. Give some forethought as to where you will be installing your BlackBox:
+
+- How far is going to be from a suitable power source?
+- How far is going to be from an Ethernet port?
+- How will sun exposure be throughout the year?
+- Is there adequate room for air flow?
+- How close are any neighbors?
+- Is it in a flood plane?
+- Will it be secure?
+- Is it out of plain view from the street?
+
+Everyone will have a unique install situation. In this demonstration, the BlackBox was installed on the North side of a garage so that the majority of the year and for most hours of the day, the box will be in the shade to help reduce heat exposure. A dedicated 240v, 20 amp circuit was ran from a sub panel through the wall of the garage and tied into the BlackBox with water-tight conduit, consult a licensed electrician to help with your install. 
 
 The enclosure is designed with the ASIC raised on a platform above the air intake/discharge with a symmetrical ‘S' shaped air flow path connecting each. This flow path allows snow, rain or dirt to fall out before it enters the ASIC, potentially causing damage. The ASIC itself is the prime mover of the heated air with an added barrier creating a pressure seal between the low pressure intake side and the high pressure discharge. The "tortuous" shape of the air flow path also helps deaden the sound waves as it reflects and is absorbed within the enclosure, reducing overall noise. The supporting column holding up the ASIC separates the ‘hot'/'cold' aisles and includes an air recirculating valve (air register) which gives the user the ability to recirculate heat when needed, for example in cold or humid climates. Finally, the design also allows for power scalability by elongating the dimension of the box perpendicular to the air flow path, enabling room for more mining ASICs up to 12 in a row in an 8' long enclosure.
 
