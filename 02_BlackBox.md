@@ -166,4 +166,16 @@ There are some good guides online for making your own Ethernet cables, such as [
  <img width="350" src="assets/IMG_5950.JPG">
 </p> 
 
-The Ethernet cable was routed through an extra port on the water-tight conduit junction box. These junction boxes come with little platic threaded caps
+The Ethernet cable was routed through an extra port on the water-tight conduit junction box. These junction boxes come with little platic threaded caps, you can simply drill a hole through them and feed the unterminated Ethernet cable through to the inside of the BlackBox. 
+
+<p align="center">
+ <img src="assets/BB60.jpg">
+</p> 
+
+Then the Ethernet cable can be routed through the in-door junction box using a cord-grip protector in one of the 1/2" knock-outs. The power cables and the Ethernet cable can just be routed up along the intake air pathway to the miner on top of the "T" platform. 
+
+<p align="center">
+ <img src="assets/BB61.jpg">
+</p> 
+
+With that, everything is ready to be connected and powered on. 
