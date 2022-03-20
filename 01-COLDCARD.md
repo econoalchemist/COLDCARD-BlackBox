@@ -57,20 +57,20 @@ First, select `Choose PIN Code`, then you will see a brief description of how th
   <img width="605" height="454" src="assets/Choose PIN.jpg">
 </p>
 
-After hitting <kbd>OK</kbd> you will get one more warning about the risk of losing or forgetting your PIN. After reading that, you can enter your PIN prefix. Use the included notecard to write down your PIN prefix then hit <kbd>OK</kbd>. 
+After hitting <kbd>OK</kbd> you will get one more warning about the risk of losing or forgetting your PIN. After reading that, you can enter your PIN prefix. Use the included note card to write down your PIN prefix then hit <kbd>OK</kbd>. 
 
 <p align="center">
   <img width="454" height="341" src="assets/EnterPreFix.jpg">
   <img width="454" height="341" src="assets/EnterPreFix2.jpg">
 </p>
 
-Next you will be presented with your two anti-phishing words. Write these down on your notecard.
+Next you will be presented with your two anti-phishing words. Write these down on your note card.
 
 <p align="center">
   <img width="605" height="454" src="assets/AntiPhishingWords.jpg">
 </p>
 
-Next, enter your PIN suffix, then write it down on the notecard and hit <kbd>OK</kbd>.
+Next, enter your PIN suffix, then write it down on the note card and hit <kbd>OK</kbd>.
 
 <p align="center">
   <img width="454" height="341" src="assets/EnterSuffix.jpg">
@@ -89,13 +89,13 @@ In the steps below you will see how to introduce your own entropy using a six si
   <img width="454" height="341" src="assets/AddEntropy.jpg">
 </p>
 
-Each 6-sided dice roll is equivolent to 2.58 bits of entropy `(log2(6))`. For reference, it would take the world's most powerful supercomputer trillions of years to brute force a 256 bit key. The COLDCARD's TRNG has already picked 256 random bits at this point, but each time you roll, you are adding 2.58 bits of entropy over those bits. So roll the dice and enter the corresponding number for each roll. Repeat this process as much as you want. Then hit <kbd>OK</kbd>.
+Each 6-sided dice roll is equivalent to 2.58 bits of entropy `(log2(6))`. For reference, it would take the world's most powerful supercomputer trillions of years to brute force a 256 bit key. The COLDCARD's TRNG has already picked 256 random bits at this point, but each time you roll, you are adding 2.58 bits of entropy over those bits. So roll the dice and enter the corresponding number for each roll. Repeat this process as much as you want. Then hit <kbd>OK</kbd>.
 
 <p align="center">
   <img width="804" height="605" src="assets/ZeroRolls.jpg">
 </p>  
 
-Now you will be presented with a new list of 24-words. Write these words down in order on your notecard. Then double check your work. 
+Now you will be presented with a new list of 24-words. Write these words down in order on your note card. Then double check your work. 
 
 <p align="center">
   <img width="454" height="341" src="assets/SaveWords1.jpg">
@@ -108,12 +108,12 @@ Next, you will be asked to take a test to prove you wrote the words down correct
   <img width="806" height="605" src="assets/Test.jpg">
 </p>  
 
-After passing the test, you will be at the COLDCARD's main menu. Best practice is to test your backup information before depositing any bitcoin. The basic idea is to use only your written backup information in an attempt to restore your wallet. If all of your backup information is correct and you successfully restore your wallet then you know that you can recover any bitcoin deposited to that wallet with that backup information. First you need a way to identify your wallet. Your newly generated wallet has a unique fingerprint which you can find from the main menu by navigating to `Advanced` > `View Identity`. You will find a unique 8-character fingerprint such as `99E870EF`. Write that fingerprint down. Now you can destroy the seed on your COLDCARD by again navigating to `Advanced` then `Danger Zone` > `Seed Functions` > `Destroy Seed`. Then you will be presented with a couple of warnings, after confirming, your seed will be destroyed and you will be brought back to the login page where you enter your PIN. Log back into your COLDCARD and from the main menu navigate to `Import Existing` > `24 words` and then start entering your seed words in order from your backup card. Start by scrolling down until you see the first letter of your word, then scroll down to the next nearest part of the word, and keep narrowing down the search until you arrive at the word you need. For example, `t` > `th` > `thr` > `throw` then hit <kbd>OK</kbd> and repeat the process for the next word. If you make a mistake, you can hit <kbd>Cancel</kbd> to go back and reselect a word. After you enter the 23rd word, COLDCARD will compute a list of 8 possible options for your 24th word. Select your 24th word from that list. If you do not see your 24th word on that list then you either made a mistake entering the first 23-words or you wrote down your backup information incorrectly. After selecting the 24th word and hitting <kbd>OK</kbd> the seed will be applied and then you can navigate back to `Advanced` > `View Identity` and confirm the fingerprint is correct. 
+After passing the test, you will be at the COLDCARD's main menu. Best practice is to test your backup information before depositing any bitcoin. The basic idea is to use only your written backup information in an attempt to restore your wallet. If all of your backup information is correct and you successfully restore your wallet then you know that you can recover any bitcoin deposited to that wallet with that backup information. First you need a way to identify your wallet. Your newly generated wallet has a unique fingerprint which you can find from the main menu by navigating to `Advanced` > `View Identity`. You will find a unique 8-character fingerprint such as `99E870EF`. Write that fingerprint down. Now you can destroy the seed on your COLDCARD by again navigating to `Advanced` then `Danger Zone` > `Seed Functions` > `Destroy Seed`. Then you will be presented with a couple of warnings, after confirming, your seed will be destroyed and you will be brought back to the login page where you enter your PIN. Log back into your COLDCARD and from the main menu navigate to `Import Existing` > `24 words` and then start entering your seed words in order from your backup card. Start by scrolling down until you see the first letter of your word, then scroll down to the next nearest part of the word, and keep narrowing down the search until you arrive at the word you need. For example, `t` > `th` > `thr` > `throw` then hit <kbd>OK</kbd> and repeat the process for the next word. If you make a mistake, you can hit <kbd>Cancel</kbd> to go back and re-select a word. After you enter the 23rd word, COLDCARD will compute a list of 8 possible options for your 24th word. Select your 24th word from that list. If you do not see your 24th word on that list then you either made a mistake entering the first 23-words or you wrote down your backup information incorrectly. After selecting the 24th word and hitting <kbd>OK</kbd> the seed will be applied and then you can navigate back to `Advanced` > `View Identity` and confirm the fingerprint is correct. 
 
 Your COLDCARD is ready to start receiving deposits, set it aside for now and after Sparrow Wallet is all setup then you can import the XPUB to deposit straight to the ColdCard from Whirlpool. If you are interested in adding the additional security of a passphrase to your COLDCARD wallet, then check out the [Paranoid guide](https://coldcard.com/docs/paranoid). A passphrase will add an additional layer of security to your seed phrase, it is like adding a 25th word that is only known to you. 
 
 ## Backup recommendations
-Careful considerations should be made in regards to how the wallet backup information will be stored. The information required for a proper backup varies depending on how the wallet was setup. These requirements may be only 24-words for a simple wallet or the requirements can include 24-words, a passphrase, master fingerprint, derivation path, and more. There are several options when it comes to picking a storage medium, each has its own set of tradeoffs. Writing the 24-words on paper is a good start and helps mitigate the risks associated with having a digital copy of the backup information. With the backup information written down on paper, an adversary would need physical access to the paper in order to retrieve the information. Where as a photo, text file, or other digital medium can be copied and replicated and shared quickly. 
+Careful considerations should be made in regards to how the wallet backup information will be stored. The information required for a proper backup varies depending on how the wallet was setup. These requirements may be only 24-words for a simple wallet or the requirements can include 24-words, a passphrase, master fingerprint, derivation path, and more. There are several options when it comes to picking a storage medium, each has its own set of trade offs. Writing the 24-words on paper is a good start and helps mitigate the risks associated with having a digital copy of the backup information. With the backup information written down on paper, an adversary would need physical access to the paper in order to retrieve the information. Where as a photo, text file, or other digital medium can be copied and replicated and shared quickly. 
 
 The trade off with paper backups is that they do not withstand fire or flooding very well. This is where steel backups come into play. Robust backups made from stainless steel can withstand fire temperatures beyond the range of a typical house fire, up to 1,500°C. Also stainless steel backups can withstand being submerged in water for extended periods of time. There is a wide range of steel backups available. Coinkite offers the [SEEDPLATE](http://bitcoinseedbackup.com/) which gives users a robust backup option that is resistant to fire and flooding as well as easy to conceal.   
 
@@ -132,4 +132,3 @@ Use a marker to indicate the first 4-letters of the first 12-words on one side o
 </p>
 
 Now you have a robust stainless steel backup that can withstand fire and flood. This backup plate is easy to conceal measuring in at 127mm X 76mm x 1.5mm so that it can be hidden in a variety of places and environments. 
-
