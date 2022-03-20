@@ -137,3 +137,16 @@ At this point, simply monitor both your SlushPool dashboard and the ASIC web int
 ![](assets/startup7_1.png)
 
 Keep in mind that the prominently displayed hash rate score on the SlushPool interface is your scoring rate which is made of averages. During initial startup do not be surprised if this number is significantly lower than the hash rate reading you get from the web interface on your ASIC. A more accurate metric to watch is in the upper right-hand corner of your SlushPool dashboard, the `5 minute`, `1 hour`, and `24 hour` averages. 
+
+In the next section on Sparrow Wallet, you will see how to setup a wallet and generate a receiving address. Once you have that address, you can use it to setup your payout rules in your SlushPool dashboard. Navigate to the `Funds` tab in the upper menu bar. 
+
+![](Assets/Slush5.png)
+
+Next, navigate to the row labeled `Bitcoin Account` and on the right-hand side click on the `Set up` hyperlink. Then click on the `Create New Wallet` option. Then fill in a wallet name, your bitcoin deposit address from your preferred wallet, and select a Trigger Type of either `threshold` or `time interval`. With small scale mining operations it may make more sense to use the `threshold` option so that once the accumulated rewards exceed a specified threshold, the payout is made. Specifying a threshold value lower than 0.01 bitcoin will result in a small fee. Then click on `Confirm Changes`.  
+
+![](Assets/Slush6.png)
+![](Assets/Slush7.png)
+
+You will be asked to confirm your SlushPool password and you will be sent a confirmation email asking for you to confirm the deposit address change. After clicking on the confirmation link in your email, you will be directed to a new SlushPool window and you will see that your changes have taken effect. 
+
+That is the process for updating your payout address. There are privacy benefits to only using addresses one time, so consider updating this address between each payout. At this point your SlushPool account is all setup and ready to use. If you want additional details for creating a SlushPool account, check the [Upstream Data Startup Guide](https://econoalchemist.github.io/UpstreamData-Startup/04%20Creating%20a%20SlushPool%20Account.html).
