@@ -178,4 +178,4 @@ Then the Ethernet cable can be routed through the in-door junction box using a c
  <img src="assets/BB61.jpg">
 </p> 
 
-With that, everything is ready to be connected and powered on. 
+With that, everything is ready to be connected and powered on. If you are looking for additional information on the startup procedure best practices, check the [Upstream Data Startup Guide](https://econoalchemist.github.io/UpstreamData-Startup/).
