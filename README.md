@@ -18,14 +18,14 @@ This guide covers:
 - Miner pressure barrier
 - Connecting power and Ethernet
 
+### Slush Pool
+- Creating a mining account
+- Connecting to the pool
+- Configuring a payout address
+
 ### Sparrow Wallet
 - Getting started with [Sparrow Wallet](https://www.sparrowwallet.com/)
 - Creating a hot wallet
 - How to use Whirlpool
 - Configure Whirlpool to deposit directly to COLDCARD 
 - Air-gapped signing with the COLDCARD
-
-### Slush Pool
-- Creating a mining account
-- Connecting to the pool
-- Configuring a payout address
