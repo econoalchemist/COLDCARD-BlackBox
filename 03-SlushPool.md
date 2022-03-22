@@ -4,7 +4,15 @@ The first thing to do is configure your miner. This section covers both Antminer
 ## Miner configuration
 In order to configure your ASIC you will need to be able to communicate with it. The easiest way to do this is to use a web browser to log into your ASIC from a computer connected to the same local network. Once connected and logged into the ASIC you can make the necessary changes to connect to the mining pool. 
 
-First you will need the local IP address for your ASIC. This can be found by logging into your router and checking the list of devices under the DHCP leases section. Your router should have the local IP address needed to login, along with the password on a label somewhere on the device. If not, the directions are usually pretty easy to find with an online search for your manufacturer's router. Typically, you can just type `192.168.0.1` or `192.168.1.1` or `10.0.0.1` into your web browser and that will bring you to your router login page. From there the username/password can vary depending on manufacturer but they are usually something like `admin/admin` or `admin/1234` or `admin/password`. Alternatively, programs like [AngryIP](https://angryip.org/) may be used. 
+First you will need the local IP address for your ASIC. This can be found by logging into your router and checking the list of devices under the DHCP leases section. Your router should have the local IP address needed to login, along with the password on a label somewhere on the device. If not, the directions are usually pretty easy to find with an online search for your manufacturer's router. Typically, you can just type `192.168.0.1` or `192.168.1.1` or `10.0.0.1` into your web browser and that will bring you to your router login page.
+
+Alternatively, one sure way to identify your router IP address is to open your command line terminal and run one of the following commands, looking for default gateway in the printed results:
+
+- `ipconfig` command for Windows
+- `netstats nr|grep default` command for MacOS
+- `route -n` command for Linux distros
+
+With the IP address identified, the username/password can vary depending on manufacturer but they are usually something like `admin/admin` or `admin/1234` or `admin/password`. Alternatively, ASIC device specific programs like [BTCTools](https://pool.btc.com/tools), which can be downloaded [here](https://url.btc.com/btc-tools-download)  or general device detection tools like [AngryIP](https://angryip.org/) may be used. 
 
 ![](assets/startup0.png)
 
