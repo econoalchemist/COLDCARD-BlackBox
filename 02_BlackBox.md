@@ -107,7 +107,7 @@ Then the miner was placed back in the box, the pressure barrier was trimmed down
  <img width="450" src="assets/BB48.jpg">
 </p>  
 
-Now that the sound treatment is satisfactory, the BlockBox is ready to be installed in its permanent location. But first there needs to be a way to connect it to power and Ethernet.
+Now that the sound treatment is satisfactory, the BlackBox is ready to be installed in its permanent location. But first there needs to be a way to connect it to power and Ethernet.
 
 ## Electrical and Ethernet
 Each BlackBox ships with a coupling to run the cables through for the customer to install themselves. There is no way to know which side of the BlackBox the customer is going to need the cables to pass through, so it is better if the customer just drills the hole in the side of the BlackBox with a hole saw where they need it. 
