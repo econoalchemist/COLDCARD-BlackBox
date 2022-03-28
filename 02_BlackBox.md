@@ -6,7 +6,7 @@ This section will show you how to:
 - Connecting power and Ethernet
 
 ## Introduction
-This section will demonstrate the basic setup for your BlackBox enclosure. The intent of the BlackBox enclosure is to allow the user to run their mining ASIC hardware outdoors where the heat and noise can be more easily controlled or dissipated. Excessive heat and noise are common problems users experience when mining bitcoin in the home or working space. In this demonstration, the final BlackBox installation was outdoors. Give some forethought as to where you will be installing your BlackBox:
+The intent of the BlackBox enclosure is to allow the user to run their mining ASIC hardware outdoors where the heat and noise can be more easily controlled or dissipated. Excessive heat and noise are common problems users experience when mining bitcoin in the home or working space. In this demonstration, the final BlackBox installation was outdoors. Give some forethought as to where you will be installing your BlackBox:
 
 - How far is going to be from a suitable power source?
 - How far is going to be from an Ethernet port?
