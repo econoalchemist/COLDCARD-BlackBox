@@ -130,8 +130,6 @@ The ASIC needs to be rebooted in order for these changes to take effect. Navigat
 <p align="center">
   <img width="733" src="assets/slush20.png">
   </p>
-  
-![](assets/slush18.png)
 
 ## Antminer & Whatsminer
 After a few minutes and as long as 90 minutes, you should start to see activity showing up in your SlushPool dashboard. Do not be alarmed if the hash rate is low or if the worker is showing as `Offline` or `Disabled`, it can take a long time for everything to connect and settle down. 
